@@ -17,12 +17,4 @@ public class BrowserProvider {
         return createDriver(browser, new DesiredCapabilities());
     }
 
-    public static RemoteWebDriver createDriver(URL hubUrl, Browser browser, DesiredCapabilities capabilities) {
-        capabilities.setBrowserName(browser.toString().toLowerCase());
-        return new RemoteWebDriver(hubUrl, capabilities);
-    }
-
-    public static RemoteWebDriver createDriver(URL hubUrl, Browser browser) {
-        return createDriver(hubUrl, browser, new DesiredCapabilities());
-    }
 }
