@@ -1,13 +1,24 @@
-version 'unspecified'
+group 'com.waverleysoftware'
+version '0.0.1'
 
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile ("org.testng:testng:6.12",
+            'org.seleniumhq.selenium:selenium-java:3.7.1',
+            'io.github.bonigarcia:webdrivermanager:1.7.2')
+}
+task wrapper(type:Wrapper){
+    gradleVersion '4.2.1'
+}
+test {
+    useTestNG() {
+        suites 'src/test/resources/smoke-suite.xml'
+    }
 }

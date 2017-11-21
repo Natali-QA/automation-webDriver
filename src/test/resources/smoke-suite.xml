@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke suite" parallel="tests">
+<test name="ChromeTests">
+    <parameter name="browser" value="CHROME" />
+    <classes>
+        <class name="com.waverleysoftware.testcases.LowcostAviaTests"/>
+    </classes>
+</test>
+    <test name="FirefoxTests">
+        <parameter name="browser" value="FIREFOX" />
+        <classes>
+            <class name="com.waverleysoftware.testcases.LowcostAviaTests"/>
+        </classes>
+    </test>
+</suite>
