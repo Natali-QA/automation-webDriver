@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.waverleysoftware.testcases.LowcostAviaTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-21T21:30:24" hostname="admins-Mac-mini-4.local" time="5.752">
+  <properties/>
+  <testcase name="openTravelIdeasTab" classname="com.waverleysoftware.testcases.LowcostAviaTests" time="4.506"/>
+  <testcase name="openTravelIdeasTab" classname="com.waverleysoftware.testcases.LowcostAviaTests" time="4.38"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1511299824745	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511299824794	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511299824794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 18141
+Only local connections are allowed.
+1511299825798	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://lowcostavia.com.ua/"
+Nov 21, 2017 11:30:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1511299827374	Marionette	DEBUG	Received DOM event "pageshow" for "http://lowcostavia.com.ua/"
+1511299827465	Marionette	DEBUG	Received DOM event "beforeunload" for "http://lowcostavia.com.ua/"
+1511299827510	Marionette	DEBUG	Received DOM event "pagehide" for "http://lowcostavia.com.ua/"
+1511299827514	Marionette	DEBUG	Received DOM event "unload" for "http://lowcostavia.com.ua/"
+1511299827930	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://lowcostavia.com.ua/category/travelideas/"
+1511299827948	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1511299827949	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1511299827950	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1511299827950	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1511299827951	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1511299827951	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1511299827952	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1511299827952	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1511299827952	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1511299827953	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1511299827953	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1511299829228	Marionette	DEBUG	Received DOM event "pageshow" for "http://lowcostavia.com.ua/category/travelideas/"
+]]></system-err>
+</testsuite>
